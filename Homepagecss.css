@@ -1,0 +1,208 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.logo{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 33%;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    background-color: #4786FF;
+    top: 0;
+    border: 0.5px solid gray;
+}
+.navlist{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    top: 0;
+}
+
+.navlist li{
+    list-style: none;
+    padding: 20px;
+}
+.navlist li:hover{
+    list-style: none;
+    padding: 30px;
+    cursor: pointer;
+    color: grey;
+
+}
+.navlist li a{
+    text-decoration: none;
+}
+.rightnav{
+    width: 30%;
+    /* background-color: beige; */
+    text-align: right;
+    padding: 20px;
+}
+
+.background{
+    background-color: #4786FF;
+}
+.btn{
+    padding: 5px;
+    width: auto;
+    margin: 2px;
+    border-radius: 6px;
+    background-color: black;
+    color: blanchedalmond;
+}
+.btn:hover{
+    color: gray;
+    cursor: pointer;
+}
+#search{
+    border-radius: 5px;
+    border: white ;
+}
+.firstsec{
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    height: 500px;
+}
+.SS{
+    font-size: 70px;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;    
+    padding-top: 140px;
+    padding-left: 400px;
+}
+
+.SS1 {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 400px;
+    align-self: center;
+}
+
+.secondsec{
+    display: flex;
+    height: 400px;
+}
+.thirdsec{
+    display: flex;
+    height: 400px;
+}
+.forthsec{
+    display: flex;
+    height: 400px;
+}
+
+.secondsec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 70%;
+    margin: auto;
+}
+
+.springlogo{
+    width: 20%;
+    height: 20%;
+}
+
+.IIITNlogo{
+    width: 20%;
+    height: 25%;
+}
+
+.nightslogo{
+    width: 25%;
+    height: 25%;
+}
+
+.thirdsec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 70%;
+    margin: auto;
+    flex-direction: row-reverse;
+}
+
+.forthsec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 70%;
+    margin: auto;
+}
+#search{
+    width: 100px;
+}
+
+.line{
+    width: 33px;
+    height: 4px;
+    margin: 3px;
+    background-color: white;
+}
+.menu{
+    display: none;
+    position: absolute;
+    top: 15px;
+    right: 2%;
+}
+@media only screen and (max-width: 980px){
+    .navlist{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+        height: 500px;
+        transition: all 0.7s ease-out;
+    }
+    .rightnav{
+        align-items: center;
+    }
+    .menu{
+        display: block;
+    }
+    .hnav-resp{
+        height: 72px;
+    }
+    .vis-resp{
+        opacity: 0;
+    }
+    .firstsec{
+        flex-direction: column;
+        width: 100%;
+    }
+    .secondsec{
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .thirdsec{
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .forthsec{
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .SS{
+        /* text-align: center; */
+        padding-left: 70px;
+    }
+    .SS1{
+        /* text-align: center; */
+        padding-left: 70px;
+    }
+}
