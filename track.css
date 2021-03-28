@@ -1,0 +1,8 @@
+.box:hover {
+    border-color: #FF6BC4;
+ }
+ .column {
+    float: left;
+    width: 39%;
+    padding: 5px;
+  }

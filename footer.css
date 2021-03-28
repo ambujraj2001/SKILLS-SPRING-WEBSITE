@@ -1,0 +1,39 @@
+.nav{
+    float: right;
+}
+
+footer{
+    background-color: black;
+    height: 250px;
+    margin: -8px;
+    
+}    
+
+.hello{
+    color: FF6BC4;
+    list-style-type: none;
+}
+
+
+.welcome{
+    margin-right: 220px;
+    list-style-type: none;
+}
+
+.hi{
+    margin-left: 57px;
+    list-style-type: none;
+}
+
+.photo{
+    margin-top: 30px;
+    margin-left: 250px;
+    height: 130px;
+    width: 220px;
+}
+
+.hallo{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
