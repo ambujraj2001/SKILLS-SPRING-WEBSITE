@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+.bg-dark {
+  background-color: #000;
+  color: #fff;
+  height: 300px;
+}
+
+.social a {
+  color: #fff;
+  margin: 15px;
+}
+
+.footer img {
+  position: absolute;
+  bottom: -1200px;
+  left: 100px;
+  width: 220px;
+  margin: -4px 6px 0 90px;
+  margin-top: 0ch;
+}
+
+.social {
+  position: absolute;
+  bottom: -1280px;
+  left: 170px;
+}
+
+.copy {
+  position: absolute;
+  bottom: -1330px;
+  left: 700px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.contact {
+  position: absolute;
+  bottom: -1270px;
+  right: 200px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}

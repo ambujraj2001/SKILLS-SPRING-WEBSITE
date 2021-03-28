@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+.grid {
+  display: grid;
+  gap: 0px;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.grid-3 {
+  grid-template-columns: repeat(3, 150px);
+}
+
+.m-2 {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 10rem;
+}
+.text-center {
+  text-align: center;
+}
+
+.dates button {
+  color: #fff;
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+}
+
+button {
+  background-color: #ff6bc4;
+  padding: 18px 30px;
+  /* max-width: 100%; */
+  width: 150px;
+  border-width: 2px;
+  border-color: #6ffd63;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.b1 {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.b3 {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.dates :hover {
+  border-color: #4786ff;
+}
