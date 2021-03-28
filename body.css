@@ -1,0 +1,28 @@
+
+
+.head{
+    color :white;
+    
+}
+.t{
+    color:orange;
+    
+}
+.border{
+    border:5px solid black;
+    margin: 3px;
+    padding:20px;
+}
+
+.l{ 
+    border: 5px solid green; 
+    border-radius:20px;
+  } 
+  .l:hover { 
+    border: 5px  solid pink; 
+    border-radius:20px;
+  } 
+  .border{
+      border:5px solid black;
+      background-color: blue;
+  }
