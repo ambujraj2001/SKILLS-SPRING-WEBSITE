@@ -1,0 +1,53 @@
+
+.right-nav{
+    float: right; 
+}
+
+.display{
+    display: inline-block;
+    margin-left: 20px;   
+    border-radius: 7px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    color: black;
+}
+
+#display1{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 80px;
+    border-radius: 7px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    margin-top: 8px;
+}
+
+header{
+    background-color: black;
+    height: 100px;
+    margin:-9px;
+}
+
+.color{
+    color: white;
+    text-decoration: none;
+}
+
+.pic{
+    
+    width: 150px;
+    margin-left: 290px;
+    margin-top: 5px;
+}
+
+.parrot{
+    background-color: 4786FF;
+}
+
+.parrot:hover{
+    background-color: FF6BC4;
+}

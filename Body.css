@@ -1,0 +1,39 @@
+.body{
+    background-color: rgb(0, 3, 10);
+}
+.box{
+    background-color: rgb(0, 3, 10);
+    width: 2150px;
+    border: 2px solid rgb(10, 247, 10);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 50px;
+    margin: 0;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.box:hover{
+    border-color: rgb(245, 24, 208);
+
+}
+.one{
+    color: rgb(247, 87, 12);
+    font-family: 'Lobster', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 8px;
+    text-align: center;
+    font-size: 45px;
+}
+h2{
+    color: seashell;
+}
+.two{
+    width: 2278px;
+    margin: 0px;
+    padding: 0%;
+    margin-left: -8px;
+    background-color:  rgb(0, 3, 10);
+}
+.three{
+    font-family: 'Acme', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+}
